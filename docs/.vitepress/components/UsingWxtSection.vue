@@ -70,6 +70,8 @@ const chromeExtensionIds = [
   'hafcajcllbjnoolpfngclfmmgpikdhlm', // Monochromate
   'bmoggiinmnodjphdjnmpcnlleamkfedj', // AliasVault - Open-Source Password & (Email) Alias Manager
   'hlnhhamckimoaiekbglafiebkfimhapb', // SnapThePrice: AI-Powered Real-time Lowest Price Finder
+  'hhhdloelamldfadfobnhdhpfmbbdppdb', // WebTalk - Chat with friends on any website. Summary of the page content. 網站聊天室;網頁ai摘要功能
+  
 ];
 
 const { data, err, isLoading } = useListExtensionDetails(chromeExtensionIds);
