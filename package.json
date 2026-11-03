@@ -2,7 +2,7 @@
   "private": true,
   "type": "module",
   "engines": {
-    "node": ">=18.20.3"
+    "node": ">=22.12.0"
   },
   "packageManager": "pnpm@10.5.2",
   "scripts": {
@@ -60,8 +60,7 @@
       ]
     },
     "patchedDependencies": {
-      "markdown-it-footnote": "patches/markdown-it-footnote.patch",
-      "extract-zip@2.0.1": "patches/extract-zip@2.0.1.patch"
+      "markdown-it-footnote": "patches/markdown-it-footnote.patch"
     },
     "overrides": {
       "minimatch": "11.0.1",
@@ -99,7 +98,8 @@
       "@babel/runtime": "7.26.10",
       "@babel/helpers": "7.26.10",
       "esbuild": "0.25.0",
-      "deepmerge": "npm:@stackline/deepmerge@1.1.0"
+      "deepmerge": "npm:@stackline/deepmerge@1.1.0",
+      "extract-zip": "npm:@electron-internal/extract-zip@1.0.6"
     }
   }
 }
